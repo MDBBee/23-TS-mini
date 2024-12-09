@@ -1,12 +1,9 @@
-import Component from './starter/02-props';
+import Component from './starter/04-events';
 
 function App() {
   return (
     <main>
-      <h2>React & Typescript</h2>
-      <Component name="Bobby" id={123}>
-        <h2>Hello World</h2>
-      </Component>
+      <Component />
     </main>
   );
 }
