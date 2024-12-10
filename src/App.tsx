@@ -1,8 +1,11 @@
-// import { ParentCom } from './starter/06-context';
-import Component from './starter/06-context/index';
+import Component from './starter/07-reducers';
 
 function App() {
-  return <main>{<Component />}</main>;
+  return (
+    <main>
+      <Component />
+    </main>
+  );
 }
 
 export default App;
